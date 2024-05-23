@@ -208,10 +208,10 @@ function init_gcc_repo(){
     git checkout ${gcc_git_branch}
 }
 
-gcc_version=14.1.0	  # Gnu C++ compiler
-gcc_git_branch=releases/gcc-14
+gcc_version=12.3.0	  # Gnu C++ compiler
+gcc_git_branch=releases/gcc-12
 binutils_version=2.42     # binutils (ar, ld etc)
-glibc_version=2.39	  # glibc
+glibc_version=2.36	  # glibc
 target_kernel_version=6.6 # version for raspbian
 debian_version=12.0       # raspbian debian version
 gdb_version=14.2          # gdb version
